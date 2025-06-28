@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kayi-grill.co.uk/sitemap.xml
