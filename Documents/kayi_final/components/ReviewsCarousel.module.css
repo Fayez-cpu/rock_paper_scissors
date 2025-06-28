@@ -1,0 +1,89 @@
+.carouselWrapper {
+    background-color: beige;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .reviewIcon {
+    width: 80px;
+    border-radius: 50%;
+  }
+  
+  .reviewText {
+    max-width: 80%;
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  
+  .imgReview {
+    width: 40%;
+    min-width: 200px;
+    border-radius: 10px;
+  }
+  
+  .controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    padding: 0 20px;
+  }
+  
+  .arrow {
+    background-color: #66a6ff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  
+  .dot {
+    width: 15px;
+    height: 15px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: black;
+  }
+  
